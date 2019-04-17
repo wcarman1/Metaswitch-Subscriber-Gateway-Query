@@ -13,8 +13,7 @@ INSTRUCTIONS for COMPILING:
 3. In cmd run "pip install psycopg2"
 4. in cmd run "pip install cx_Freeze"
 5. open metaquery.py in text editor and modify the MetaIP variable on line 7. example MetaIP = '192.168.1.1'
-6. (optional) if you have changed any of the other variables on your Meta you must also modify them in this 
-file (lines 8-10). It contains the default settings currently.
+6. Change the variables in lines 8-10 to reflect your shadow db name, read only user, and password.
 7. In cmd change directories to the folder that contains the script and run 'python metaquery.py' to test. 
 8. (optional) once working I compiled it for distribution by running the setup script by running
 'python setup.py bdist_msi' which will build a msi installer (allows others to use without having to install python)
