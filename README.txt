@@ -27,7 +27,7 @@ the configured static IP address. (something I realized while using the app)
 
 TESTED:
 
-I tested and use this on my Metaswitch running v9.2. 
+I tested and use this on my Metaswitch running v9.2 and v9.3.20. 
 
 
 SIDE NOTE:
